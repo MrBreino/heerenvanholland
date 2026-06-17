@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./DeHeerenvanHolland-logo-white.png" type="images/png">
+    <title>Cafe De Heeren van Holland</title>
+    <meta
+      name="description"
+      content="Cafe De Heeren van Holland is het feestcafe van de Vlasmarkt in Middelburg voor borrels, live sport, DJ's en feestavonden."
+    />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://source.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <nav class="navbar" aria-label="Hoofdnavigatie">
+        <a class="brand" href="#home" aria-label="Cafe De Heeren van Holland home">
+          <img class="brand-logo" src="DeHeerenvanHolland-logo-white.png" alt="Cafe De Heeren van Holland" />
+        </a>
+
+        <button class="nav-toggle" type="button" data-nav-toggle aria-label="Menu openen" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel" data-nav-panel>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="">Menukaart</a></li>
+            <li><a href="#events">Feesten & Events</a></li>
+            <li><a href="#fotos">Foto's</a></li>
+            <li><a href="#sport">Sport</a></li>
+          </ul>
+          <div class="nav-actions">
+            <div class="language-switcher" aria-label="Taalkeuze">
+              <a href="#" aria-current="true">NL</a>
+              <a href="#">EN</a>
+              <a href="#">DE</a>
+            </div>
+            <a class="button button-small" href="#locatie">Kom langs</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-label="Cafe sfeer">
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+          <source src="content/heerenvanholland-carousselvideo.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-grain"></div>
+        <div class="hero-content">
+          <h1>Van borrel tot dansen</h1>
+          <p class="hero-copy">
+            Café, feestcafé, disco, live sport op grote schermen, voetbal, F1, shots, bier, wijn en nog veel meer.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#partyplanning">Plan je avond</a>
+            <a class="button button-ghost" href="#socials">Volg ons</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro section-band" id="intro">
+        <div class="section-inner intro-grid">
+          <figure class="polaroid">
+            <img
+              src="./content/cafe-de-heeren-van-holland_000-1920x1440.jpg"
+              alt="Vrienden vieren een feestavond in het cafe"
+            />
+            <figcaption>Vaste plek aan de Vlasmarkt</figcaption>
+          </figure>
+          <div class="intro-copy">
+            <p class="eyebrow">Gezellig, lokaal en altijd in beweging</p>
+            <h2>Waar Middelburg samenkomt</h2>
+            <p>
+              Cafe De Heeren van Holland is het feestcafe aan de Vlasmarkt waar Middelburg samenkomt voor drankjes,
+              sport, muziek en gezelligheid.<br> Van een ontspannen borrel tot een avond dansen met vrienden: bij De
+              Heeren voelt iedereen zich snel thuis.
+            </p>
+            <div class="badges" aria-label="Highlights">
+              <span>Live sport op grote schermen</span>
+              <span>DJ's & feestavonden</span>
+              <span>Privéfeesten mogelijk</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-strip" id="menukaart">
+        <div class="section-inner menu-strip-grid">
+          <div>
+            <p class="eyebrow">Menukaart</p>
+            <h2>Bier, wijn, shots en sterke verhalen</h2>
+          </div>
+          <p>
+            Van een snelle borrel na werk tot rondjes voor de hele groep: verwacht koude tapbieren, wijn, mixdrankjes,
+            shots en simpele cafe-favorieten die passen bij een lange avond.
+          </p>
+          <a class="button button-dark" href="#locatie">Zie menukaart</a>
+        </div>
+      </section>
+
+      <section class="events section-band dark-band" id="events">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Feesten & events</p>
+          </div>
+          <div class="event-grid">
+            <article class="event-card">
+              <img src="./content/723480659_18342767479301141_3127502837821148335_n.jpg" alt="Feestende mensen in cafe" />
+              <div class="event-content">
+                <time>Vrijdag - 22:00</time>
+                <h3>Nederland VS Japan</h3>
+                <p>Zie de wedstrijd Nederland tegen Japan met ons samen.</p>
+              </div>
+            </article>
+            <article class="event-card">
+              <img src="./content/722974117_18342409909301141_2761227198758041366_n.jpg" alt="DJ met publiek" />
+              <div class="event-content">
+                <time>Vrijdag - 23:00</time>
+                <h3>DJ Harry</h3>
+                <p>Vrijdag kijken we samen naar de grootste sportmomenten op groot scherm. Daarna gaat het gas erop met DJ Harry!</p>
+              </div>
+            </article>
+            <article class="event-card">
+              <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=900&q=82" alt="Voetbalwedstrijd sfeer" />
+              <div class="event-content">
+                <time>Wedstrijdavond</time>
+                <h3>Live Voetbal</h3>
+                <p>Samen kijken op grote schermen, met de hele zaak erin.</p>
+              </div>
+            </article>
+            <article class="event-card">
+              <img src="https://image.parool.nl/264135698/width/2480/max-verstappen-op-het-circuit-of-the-americas-in-austin" alt="Raceauto op circuit" />
+              <div class="event-content">
+                <time>Racezondag</time>
+                <h3>Formule 1 kijken</h3>
+                <p>Vol gas meekijken met een koud glas en goed gezelschap.</p>
+              </div>
+            </article>
+            <article class="event-card">
+              <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=900&q=82" alt="Themafeest met confetti" />
+              <div class="event-content">
+                <time>Binnenkort</time>
+                <h3>Themafeest</h3>
+                <p>Foute hits, verkleden, verzoekjes en net iets te veel energie.</p>
+              </div>
+            </article>
+            <article class="event-card">
+              <img src="https://images.unsplash.com/photo-1549451371-64aa98a6f660?auto=format&fit=crop&w=900&q=82" alt="Nieuwjaarsfeest met lichten" />
+              <div class="event-content">
+                <time>31 december</time>
+                <h3>Oud & Nieuw Party</h3>
+                <p>Het jaar uit met bekende gezichten en volle glazen.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="social-cta" id="socials">
+        <img
+          src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=1600&q=82"
+          alt=""
+          aria-hidden="true"
+        />
+        <div class="social-overlay"></div>
+        <div class="section-inner social-content">
+          <div>
+            <p class="eyebrow">Updates uit de kroeg</p>
+            <h2>Mis geen feestje</h2>
+            <p>Volg De Heeren voor weekendupdates, sportavonden, DJ's, foto's en spontane acties.</p>
+          </div>
+          <div class="social-icons" aria-label="Social media links">
+            <a href="https://www.facebook.com/217188598297656" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com/cafedeheerenvanholland/?hl=en" aria-label="Instagram">@</a>
+            <a href="https://x.com/deheerenmbg" aria-label="Twitter of X">X</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section-band" id="fotos">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow" style="color: black;">Foto's</p>
+          </div>
+          <div class="photo-grid" data-gallery>
+            <button type="button"><img src="./content/460_400_3_239_0_nl_degeere.jpg" alt="Warm cafe interieur" /></button>
+            <button type="button"><img src="./content/cafe-de-heeren-van-holland_000-1920x1440.jpg" alt="Bar met flessen en glazen" /></button>
+            <button type="button"><img src="./content/cafe-de-heeren-van-holland_001.jpg" alt="Vrienden in uitgaanssfeer" /></button>
+            <button type="button"><img src="./content/cafe-de-heeren-van-holland_003.jpg" alt="Dansende mensen met licht" /></button>
+            <button type="button"><img src="./content/images.jpg" alt="Bierglazen op tafel" /></button>
+            <button type="button"><img src="./content/studentenvereniging-aqua-ad-vinum-verhuist-na-23-jaar-van-vlissingen-naar-middelburg_000.jpg" alt="Voetbalmoment in stadion" /></button>
+            <button type="button"><img src="./content/studentenvereniging-aqua-ad-vinum-verhuist-na-23-jaar-van-vlissingen-naar-middelburg_003.jpg" alt="DJ booth met lichten" /></button>
+            <button type="button"><img src="./content/cafe-de-heeren-van-holland-in-middelburg-sluit-deuren-wegens-besmettingen.avif" alt="Barmedewerker schenkt drank" /></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="sports section-band dark-band" id="sport">
+        <div class="section-inner sports-grid">
+          <div class="sports-copy">
+            <p class="eyebrow">Live op groot scherm</p>
+            <h2>Live sport kijken bij De Heeren</h2>
+            <p>
+              Voetbal, Formule 1 en grote sportmomenten kijk je samen op grote schermen, met een drankje in je hand en
+              vrienden om je heen.
+            </p>
+            <a class="button" href="#socials">Check de socials voor de planning</a>
+          </div>
+          <div class="sport-card-grid">
+            <article>
+              <h3>Voetbal</h3>
+              <p>Competitie, Europees voetbal en Oranje-avonden.</p>
+            </article>
+            <article>
+              <h3>Formule 1</h3>
+              <p>Geniet van Max met spanning tesamen tot de laatste ronde</p>
+            </article>
+            <article>
+              <h3>Events</h3>
+              <p>Van finales tot festivals: samen voelt alles groter.</p>
+            </article>
+            <article>
+              <h3>Boxen</h3>
+              <p>Reserveer je hoek en maak er een avond van.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="private-party section-band" id="partyplanning">
+        <div class="section-inner party-grid">
+          <div>
+            <p class="eyebrow">Groepen & privefeesten</p>
+            <h2>Vier je feestje bij De Heeren</h2>
+            <p>
+              Een verjaardag, teamavond, borrel of ander feestje?<br>De Heeren denkt graag met je mee over een gezellige
+              avond in hartje Middelburg.
+            </p>
+            <a class="button button-dark" href="#contact">Vraag naar de mogelijkheden</a>
+          </div>
+        </div>
+        <img
+          class="beer-hand-scroll"
+          src="./content/beer-hand.png"
+          alt=""
+          aria-hidden="true"
+          data-scroll-beer-hand
+        />
+      </section>
+
+      <section class="location section-band" id="locatie">
+        <div class="section-inner location-grid">
+          <div class="location-copy">
+            <p class="eyebrow">Locatie</p>
+            <p>Café de Heeren van Holland<br>Vlasmarkt 37<br>4331 PD Middelburg</p>
+            <div class="location-actions">
+              <a class="button button-dark" href="https://www.google.com/maps/dir/?api=1&destination=Vlasmarkt%2037%2C%204331%20PD%20Middelburg" target="_blank" rel="noreferrer">Route</a>
+              <a class="button button-outline" href="#contact">Contact</a>
+            </div>
+            <div class="hours">
+              <h3>Openingstijden</h3>
+              <dl>
+                <div><dt>Maandag</dt><dd>gesloten</dd></div>
+                <div><dt>Dinsdag</dt><dd>gesloten</dd></div>
+                <div><dt>Woensdag</dt><dd>14:00 - 02:00</dd></div>
+                <div><dt>Donderdag</dt><dd>14:00 - 05:00</dd></div>
+                <div><dt>Vrijdag</dt><dd>14:00 - 05:00</dd></div>
+                <div><dt>Zaterdag</dt><dd>14:00 - 05:00</dd></div>
+                <div><dt>Zondag</dt><dd>14:00 - 02:00</dd></div>
+              </dl>
+            </div>
+          </div>
+          <div class="map-wrap">
+            <iframe
+              title="Google Maps locatie Cafe De Heeren van Holland"
+              src="https://www.google.com/maps?q=Vlasmarkt%2037%2C%204331%20PD%20Middelburg&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="section-inner footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#home">
+            <img class="brand-logo" src="DeHeerenvanHolland-logo-white.png" alt="Cafe De Heeren van Holland" />
+          </a>
+          <address>Vlasmarkt 37<br />4331 PD Middelburg<br><br>deheerenvanholland@gmail.com<br>+31617081578</address>
+          <img class="nix-logo" src="https://www.trimbos.nl/wp-content/uploads/2020/10/2b6a3744-1360-48d1-ad28-84ff39caf992pngw1670v1516702603.png" alt="NIX18" />
+        </div>
+
+        <form class="contact-form" aria-label="Contactformulier">
+          <h2>Stuur een bericht</h2>
+          <label>
+            Naam
+            <input type="text" name="name" autocomplete="name" />
+          </label>
+          <label>
+            E-mail
+            <input type="email" name="email" autocomplete="email" />
+          </label>
+          <label>
+            Bericht
+            <textarea name="message" rows="4"></textarea>
+          </label>
+          <button class="button" type="submit">Versturen</button>
+        </form>
+
+        <div class="footer-links">
+          <h2>Snel naar</h2>
+          <a href="#menukaart">Menukaart</a>
+          <a href="#events">Feesten & Events</a>
+          <a href="#fotos">Foto's</a>
+          <a href="#sport">Sport kijken</a>
+          <a href="#locatie">Locatie</a>
+          <div class="language-switcher footer-language" aria-label="Taalkeuze footer">
+            <a href="#" aria-current="true">NL</a>
+            <a href="#">EN</a>
+            <a href="#">DE</a>
+          </div>
+        </div>
+
+        <div class="footer-hours">
+          <h2>Openingstijden</h2>
+          <p>Woensdag en zondag tot 02:00. Donderdag, vrijdag en zaterdag tot 05:00.</p>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/217188598297656" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com/cafedeheerenvanholland/?hl=en" aria-label="Instagram">@</a>
+            <a href="https://x.com/deheerenmbg" aria-label="Twitter of X">X</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="lightbox" data-lightbox aria-hidden="true">
+      <button class="lightbox-close" type="button" data-lightbox-close aria-label="Sluiten">×</button>
+      <img
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+        alt=""
+        data-lightbox-img
+      />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
